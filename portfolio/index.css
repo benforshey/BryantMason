@@ -1,0 +1,29 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.card {
+  box-shadow: 0 0 0 0.125em #2e2e2e;
+  position: relative;
+}
+
+.card__title {
+}
+
+.card__link {
+  text-decoration: none;
+  color: red;
+}
+
+.card__link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.card__image {
+}
